@@ -1,0 +1,275 @@
+body {
+
+    margin: 0;
+
+    font-family: Arial;
+
+    background-color: #f3f4f6;
+
+}
+
+.container {
+
+    max-width: 400px;
+
+    min-height: 100vh;
+
+    margin: auto;
+
+    background-color: white;
+
+    padding: 15px;
+
+    padding-bottom: 90px;
+
+}
+
+header {
+
+    padding: 10px;
+
+}
+
+.location {
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+
+}
+
+.search {
+
+    background-color: #f1f5f9;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    display: flex;
+
+}
+
+.search input {
+
+    border: none;
+
+    background: transparent;
+
+    width: 100%;
+
+    outline: none;
+
+    margin-left: 8px;
+
+}
+
+.offer {
+
+    background: linear-gradient(135deg, #92400e, #b45309);
+
+    color: white;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+}
+
+.offer h2 {
+
+    font-size: 18px;
+
+}
+
+.offer p {
+
+    font-size: 12px;
+
+}
+
+.code {
+
+    background-color: white;
+
+    color: #92400e;
+
+    padding: 8px;
+
+    border-radius: 6px;
+
+    display: inline-block;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+}
+
+h3 {
+
+    font-size: 17px;
+
+    margin-top: 20px;
+
+}
+
+.categories {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 8px;
+
+}
+
+.category {
+
+    background-color: #f8fafc;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 12px;
+
+    padding: 12px 3px;
+
+    text-align: center;
+
+    font-size: 11px;
+
+}
+
+.category span {
+
+    display: block;
+
+    font-size: 24px;
+
+    margin-bottom: 8px;
+
+}
+
+.store {
+
+    border: 1px solid #dddddd;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+}
+
+.picture {
+
+    background: linear-gradient(135deg, #fff3c4, #fef3c7);
+
+    text-align: center;
+
+    padding: 22px;
+
+    font-size: 28px;
+
+}
+
+.details {
+
+    padding: 12px;
+
+}
+
+.details h4 {
+
+    margin: 0;
+
+    font-size: 15px;
+
+}
+
+.rating {
+
+    background-color: green;
+
+    color: white;
+
+    padding: 5px;
+
+    border-radius: 5px;
+
+    float: right;
+
+    font-size: 11px;
+
+}
+
+.details p {
+
+    font-size: 12px;
+
+    color: gray;
+
+}
+
+.details .time {
+
+    color: #92400e;
+
+    font-weight: bold;
+
+}
+
+nav {
+
+    position: fixed;
+
+    bottom: 0;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    max-width: 400px;
+
+    width: 100%;
+
+    display: flex;
+
+    background-color: white;
+
+    border-top: 1px solid #dddddd;
+
+    padding: 12px 0;
+
+}
+
+nav a {
+
+    width: 25%;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    color: gray;
+
+    font-size: 11px;
+
+}
+
+nav span {
+
+    display: block;
+
+    font-size: 20px;
+
+    margin-bottom: 5px;
+
+}
+
+nav .home {
+
+    color: #92400e;
+
+}
